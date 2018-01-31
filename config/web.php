@@ -53,6 +53,10 @@ $config = [
         */
     ],
     'params' => $params,
+    'user' => [
+        'identityClass'   => 'app\models\User',
+        'enableAutoLogin' => true,
+    ],
 ];
 
 if (YII_ENV_DEV) {
